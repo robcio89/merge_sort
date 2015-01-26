@@ -15,6 +15,7 @@ exe
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+[Dd]ebug/*.exe
 x64/
 x86/
 build/

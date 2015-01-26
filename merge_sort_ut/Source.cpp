@@ -34,6 +34,7 @@ TEST(aaa, sum_elements)
 	
 	EXPECT_EQ(5000050000, f.get_sum(nums));
 }
+
 //TEST(aaa, sum_elements)
 //{
 	//no inversions

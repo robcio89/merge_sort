@@ -1,0 +1,16 @@
+﻿Build started 2015-01-26 11:49:45.
+     1>Project "D:\projects\merge_sort\merge_sort_code\merge_sort_code.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FileReader.cpp main.cpp
+         main.cpp
+         FileReader.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\projects\merge_sort\Debug\merge_sort_code.lib" /NOLOGO Debug\FileReader.obj
+         Debug\main.obj
+         merge_sort_code.vcxproj -> D:\projects\merge_sort\Debug\merge_sort_code.lib
+     1>Done Building Project "D:\projects\merge_sort\merge_sort_code\merge_sort_code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

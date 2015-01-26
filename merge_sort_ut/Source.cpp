@@ -21,7 +21,7 @@ TEST(aaa, readFile)
 	std::string path = "D:\\projects\\merge_sort\\gistfile1.txt";
 	nums = f.read_file_content("D:\\projects\\merge_sort\\gistfile1.txt");
 
-	EXPECT_TRUE(nums.size());
+	EXPECT_TRUE(nums.size() != 0);
 }
 
 TEST(aaa, sum_elements)
@@ -34,12 +34,11 @@ TEST(aaa, sum_elements)
 	
 	EXPECT_EQ(5000050000, f.get_sum(nums));
 }
-/* Test No. 2  
-TEST(testCalc, MySecondTest)
-{
-   ...
-}
-*/
+//TEST(aaa, sum_elements)
+//{
+	//no inversions
+	//2507223936
+//}
 
 int main(int argc, char* argv[])
 {

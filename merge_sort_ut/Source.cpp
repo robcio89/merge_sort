@@ -1,6 +1,7 @@
 // This header file defines the public API for Google Test.
 //It should be included by any test program that uses Google Test.
 #include "gtest/gtest.h"
+
 #include "..\merge_sort_code\FileReader.h"
 
 //#include "..\Calc\Calc.h"
@@ -18,8 +19,8 @@ TEST(aaa, readFile)
 	FileReader f;
 
 	std::vector<int> nums;
-	std::string path = "D:\\projects\\merge_sort\\gistfile1.txt";
-	nums = f.read_file_content("D:\\projects\\merge_sort\\gistfile1.txt");
+	std::string path = "..\\gistfile1.txt";
+	nums = f.read_file_content("..\\gistfile1.txt");
 
 	EXPECT_TRUE(nums.size() != 0);
 }
@@ -29,8 +30,8 @@ TEST(aaa, sum_elements)
 	FileReader f;
 
 	std::vector<int> nums;
-	std::string path = "D:\\projects\\merge_sort\\gistfile1.txt";
-	nums = f.read_file_content("D:\\projects\\merge_sort\\gistfile1.txt");
+	std::string path = "..\\gistfile1.txt";
+	nums = f.read_file_content("..\\gistfile1.txt");
 	
 	EXPECT_EQ(5000050000, f.get_sum(nums));
 }

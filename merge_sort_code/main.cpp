@@ -7,8 +7,8 @@ int main()
 {
 	cout << "Merge sort" << endl;
 
-	FileReader f;
-	f.hello();
+	FileReader file;
+	file.hello();
 	getchar();
 	return 0;
 }
